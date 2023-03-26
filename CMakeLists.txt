@@ -15,9 +15,6 @@ find_package(Qt5 COMPONENTS Core Gui Widgets REQUIRED)
 # Add your source files to the executable
 add_executable(qt5notify
     main.cpp
-    notifyclient.cpp
-    notifyclient.h
-    notifyclient.ui
     qml.qrc
 )
 
